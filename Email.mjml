@@ -1,0 +1,93 @@
+<mjml>
+  <mj-head>
+    <mj-title>Seu carrinho te espera!</mj-title>
+    <mj-attributes>
+      <mj-all font-family="Roboto, Helvetica, Arial, sans-serif" />
+      <mj-text font-size="14px" color="#333333" line-height="20px" />
+    </mj-attributes>
+    <mj-style>
+      .countdown { color: #ff4400 !important; font-weight: bold; }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#f0f2f5">
+
+    <mj-section background-color="#000000" padding="10px">
+      <mj-column>
+        <mj-text align="center" color="#ffffff" font-size="12px" letter-spacing="1px">
+          FRETE GRÁTIS EM COMPRAS ACIMA DE R$ 199
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff" padding="20px">
+      <mj-column>
+        <mj-image src="https://cdn-icons-png.flaticon.com/512/5968/5968204.png" alt="Logo Store" width="40px" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff" padding-top="0px">
+      <mj-column width="100%">
+        <mj-text align="center" font-size="22px" font-weight="bold" padding-bottom="10px">
+          Sentimos sua falta... 💔
+        </mj-text>
+        <mj-text align="center" font-size="16px">
+          Seus produtos favoritos ainda estão guardados, mas o estoque está acabando!
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff" padding="20px" border="1px solid #eeeeee">
+      <mj-group>
+        <mj-column width="40%">
+          <mj-image src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80" alt="Tênis Turbo" border-radius="8px" />
+        </mj-column>
+        <mj-column width="60%">
+          <mj-text font-size="18px" font-weight="bold" padding-top="10px">Tênis Performance Turbo</mj-text>
+          <mj-text color="#777">Tamanho: 42 | Cor: Vermelho Racer</mj-text>
+          <mj-text color="#ff4400" font-size="20px" font-weight="bold">R$ 299,90</mj-text>
+          <mj-button background-color="#000" color="#fff" align="left" border-radius="4px" href="#">
+            FINALIZAR AGORA
+          </mj-button>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <mj-section background-color="#fff3cd" padding="10px">
+      <mj-column>
+        <mj-text align="center" color="#856404" font-weight="bold">
+          ⚠️ O seu cupom VOLTA10 expira em: <span class="countdown">02:59:44</span>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column width="33.33%">
+        <mj-image src="https://cdn-icons-png.flaticon.com/512/655/655607.png" width="30px" />
+        <mj-text align="center" font-size="11px" font-weight="bold">Troca Grátis</mj-text>
+      </mj-column>
+      <mj-column width="33.33%">
+        <mj-image src="https://cdn-icons-png.flaticon.com/512/438/438526.png" width="30px" />
+        <mj-text align="center" font-size="11px" font-weight="bold">Pagamento Seguro</mj-text>
+      </mj-column>
+      <mj-column width="33.33%">
+        <mj-image src="https://cdn-icons-png.flaticon.com/512/1611/1611768.png" width="30px" />
+        <mj-text align="center" font-size="11px" font-weight="bold">Atendimento VIP</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-top="40px">
+      <mj-column>
+        </mj-divider border-width="1px" border-style="dashed" border-color="#lightgrey"/>
+        <mj-social font-size="12px" icon-size="20px" mode="horizontal">
+          <mj-social-element name="instagram" href="#" />
+          <mj-social-element name="facebook" href="#" />
+        </mj-social>
+        <mj-text align="center" color="#999" font-size="10px">
+          Você recebeu este e-mail por demonstrar interesse em nossos produtos.<br/>
+          © 2024 Sua Loja Exemplo - Todos os direitos reservados.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+  </mj-body>
+</mjml>
